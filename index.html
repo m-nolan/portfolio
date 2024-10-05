@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <!--Largely *inspired* by http://maggielee.net/-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Michael Nolan, Data Journalist</title>
+        <style>
+            /*  Add a style sheet to configure the page layout  */
+            body {
+                margin: 0;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #9ac9a4;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                margin-top: 0;
+                margin-bottom: 0.5rem;
+                text-align: center;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+
+            address {
+                margin-bottom: 1rem;
+                font-style: normal;
+                line-height: inherit;
+            }
+
+            a {
+                color: #007bff;
+                text-decoration: none;
+                background-color: transparent;
+                -webkit-text-decoration-skip: objects;
+            }
+
+            h1, h2, h3, h4, h5, h6,
+			.h1, .h2, .h3, .h4, .h5, .h6 {
+			  margin-bottom: 0.5rem;
+			  font-family: inherit;
+			  font-weight: 500;
+			  line-height: 1.2;
+			  color: inherit;
+			}
+
+			h2, .h2 {
+			  font-size: 2rem;
+			}
+
+			small, .small {
+			  font-size: 80%;
+			  font-weight: 400;
+			}
+
+            p.date {
+                background-color: #C0C0C9;
+                display: inline-block;
+                border-radius: 2px;
+            }
+
+		    article {
+		       padding: 10px;
+		       margin: 10px;
+		       background: white;
+		       flex: 200px;
+               border-radius: 5px;
+		     }
+		     
+		    section {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			} 
+
+			img.lg-thumbnail {
+				display: block;
+				margin-left: auto;
+    			margin-right: auto;
+			}
+
+        </style>
+    </head>
+    <body>
+        <section>
+
+            <article>
+                <h2>Michael Nolan</h2>
+                <img src="https://static.wixstatic.com/media/5ce868_353b123ddc714626b919235af93e8f42~mv2.png/v1/crop/x_0,y_51,w_365,h_434/fill/w_498,h_592,al_c,lg_1,q_85,enc_auto/Mike%20Profile%20Pic.png" height="275px" width="231px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                <p>I'm a reporter and data journalist covering U.S. politics, science, and technology. I was previously a research scientist and biomedical engineer.</p>
+                <p>This portfolio contains selected bylines of data reporting, more traditional reporting, and sundry data work.</p>
+                <!--Add muckrock, twitter, bluesky, linkedin links here-->
+                <p>
+                    <ul>
+                        <li><a href="https://minnpost.com/author/michael-nolan">MinnPost Articles</a></li>
+                        <li><a href="https://spectrum.ieee.org/u/michaelnolan">IEEE Spectrum Articles</a></li>
+                    </ul>
+                </p>
+                <p>michael.a.nolan[ at ]protonmail.com
+                    </br>
+                    signal: @mnolan.30
+                </p>
+            </article>
+
+            <article>
+                <h3>Minnesota Campaign Finance Dashboard</h3>
+                <a href="https://www.minnpost.com/TKTK">
+                    <img src="https://www.minnpost.com/wp-content/uploads/2024/10/TKTK.png" height="275px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Collection of graphs detailing the landscape of 2024 political fundraising and spending in Minnesota</p>
+                <p>Data byline, aggregated work from 2024 election coverage</p>
+                <p class="date">2024-10-07</p>
+                <p class="small">Ingredients: python, pandas, datawrapper</p>
+            </article>
+
+            <article>
+                <h3>Minnesota Political Funding Networks</h3>
+                <a href="https://www.minnpost.com/elections/2024/10/the-minnesota-dfls-massive-behind-the-scenes-political-fundraising-network-explained/">
+                    <img src="https://www.minnpost.com/wp-content/uploads/2024/10/PoliticalCashFLow940.png" height="202px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Force-directed graph visualization of payments made between Minnesotan individuals, PACs and other political organizations during the 2024 election.</p>
+                <p>Data byline w/Peter Callaghan</p>
+                <p class="date">2024-10-03</p>
+                <p class="small">Ingregients: python, pandas, js, d3, svg</p>
+            </article>
+
+            <article>
+                <h3>16 Races to Watch: MN State Legislative Races, 2024</h3>
+                <a href="https://www.minnpost.com/elections/2024/10/a-month-before-election-day-these-16-races-to-watch-could-determine-minnesota-house-control/">
+                    <img src="https://datawrapper.dwcdn.net/uca1A/full.png" height="275px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Dashboard and breakdown of 16 notable Minnesotan State Legislative races in 2024.</p>
+                <p>Data byline with Peter Callaghan, district maps and bar charts of campaign-aligned independent expenditures.</p>
+                <p class="date">2024-10-01</p>
+                <p class="small">Ingredients: python, pandas, MN CFB, geojson, datawrapper</p>
+            </article>
+
+            <article>
+                <h3>Walz helps Democratic ticket outraise Trump 16-to-1 in Minnesota in August</h3>
+                <a href="https://www.minnpost.com/elections/2024/09/walz-helps-democratic-ticket-outraise-trump-16-to-1-in-minnesota-in-august/">
+                    <img src="https://datawrapper.dwcdn.net/rSEkh/full.png" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Breakdown of presidential campaign fundraising from Minnesotans in 2024, specifically focusing on the effect of the Walz VP nomination.</p>
+                <p>Data reporting byline with Ana Radelat</p>
+                <p class="date">2024-09-25</p>
+                <p class="small">Ingredients: python, pandas, FEC data, datawrapper, writing, editing</p>
+            </article>
+
+            <article>
+                <h3>MinnPost Minnesota Poll Data Dump: 2024-09</h3>
+                <a href="https://www.minnpost.com/elections/2024/09/data-dump-minnpost-publishes-crosstabs-of-its-first-poll-in-2024/">
+                    <img src="https://datawrapper.dwcdn.net/4YG6E/full.png" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Complete results and resulting analyses of the MinnPost Minnesota Survey poll conducted in 2024-09 with Embold research.</p>
+                <p>Collection of data reporting bylines</p>
+                <p class="date">2024-09-20</p>
+                <p class="small">Ingredients: python, pandas, poll data, datawrapper, writing, editing</p>
+            </article>
+
+            <article>
+                <h3>Drug Patent Use Code Investigation</h3>
+                <a href="https://www.statnews.com/pharmalot/2024/09/18/pharmaceuticals-prescription-drug-patents-prices-orange-book/">
+                    <img src="https://www.statnews.com/wp-content/uploads/2024/08/stat_drugpatents_f1_2000x1125-1600x900.jpg" height="155px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>STAT</p>
+                <p>Exploratory investigation of drug patent use codes in the FDA Orange Book. Use code counts have ballooned in the past decade. Experts see this as a new method of drug lifecycle extension.</p>
+                <p>Data reporting byline w/Ed Silverman, Emory Parker at STAT News</p>
+                <p class="date">2024-09-18</p>
+                <p class="small">Ingredients: python, pandas</p>
+            </article>
+
+            <article>
+                <h3>Minnesota individual donations to Harris campaign surged after Biden dropped out</h3>
+                <a href="https://www.minnpost.com/elections/2024/08/individual-donations-from-minnesotans-to-harris-campaign-surged-after-biden-dropped-out-no-such-spike-for-trump/">
+                    <img src="https://datawrapper.dwcdn.net/Mrfvx/full.png" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Inspection of FEC campaign donation filings from minnesotans in June, July 2024 showed a donation spike with Biden dropping out, little response to PA Trump assassination attempt.</p>
+                <p>Data reporting byline</p>
+                <p class="date">2024-08-23</p>
+                <p class="small">Ingredients: python, pandas, FEC data, datawrapper, writing, editing</p>
+            </article>
+
+            <article>
+                <h3>How public safety attitudes, different campaigning changed the Omar-Samuels standoff</h3>
+                <a href="https://www.minnpost.com/elections/2024/08/individual-donations-from-minnesotans-to-harris-campaign-surged-after-biden-dropped-out-no-such-spike-for-trump/">
+                    <img src="https://datawrapper.dwcdn.net/5kplm/full.png" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>MinnPost</p>
+                <p>Mapping out vote counts in Minnesota's 5th district in 2022 and 2024 and linking 2024 primary results to Minneapolitan views.</p>
+                <p>Data byline with Winter Keefer</p>
+                <p class="date">2024-08-15</p>
+                <p class="small">Ingredients: python, pandas, MN Sec. of State BOE, datawrapper, writing, editing</p>
+            </article>
+
+            <article>
+                <h3>Analysis: Which Nevada candidates have benefited from federal loans?</h3>
+                <a href="https://thenevadaindependent.com/article/analysis-which-nevada-candidates-have-benefited-from-federal-loans">
+                    <img src="https://storage.googleapis.com/cdn.thenevadaindependent.com/2023/05/renoCasinoClosures_031720_16-scaled.jpg" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>Sunlight Research Center, The Nevada Independent</p>
+                <p>Analysis of federal spending data detailing which NV 2024 political candidates benefitted from disaster relief and PPP loans to their businesses.</p>
+                <p>Data analysis work with Sunlight Research Center, née Sunlight Search</p>
+                <p class="date">2024-06-02</p>
+                <p class="small">Ingredients: python, pandas, USASpending</p>
+            </article>
+
+            <article>
+                <h3>Campaign Finance Connections: Finding Overlaps in Donors and Vendors Between House Races</h3>
+                <a href="https://github.com/m-nolan/sunlight_fec">
+                    <img src="https://raw.githubusercontent.com/m-nolan/sunlight_fec/refs/heads/main/figures/top_20_sch_e_M-DE-LA-CRUZ.png" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>Sunlight Research Center</p>
+                <p>Automated analysis software gathering campaign finance filings from multiple U.S. House races to identify common donors, vendors and independent expenditure sources between campaign committees.</p>
+                <p>Coding and analysis</p>
+                <p class="date">2024-04</p>
+                <p class="small">Ingredients: python, pandas, matplotlib, gspread, FEC data, github actions</p>
+            </article>
+
+            <article>
+                <h3>Digging Into AI "Existential Risk" Surveys</h3>
+                <a href="https://spectrum.ieee.org/ai-existential-risk-survey">
+                    <img src="https://spectrum.ieee.org/media-library/an-illustration-of-a-person-running-away-from-a-tornado-shape-full-of-code.jpg?id=51164800&width=275" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>IEEE Spectrum</p>
+                <p>Looking behind the curtain at AI Impact, the source of multiple surveys claiming a "5% likelihood of human extinction or similarly permanent and severe disempowerment of the human species" by AI. Come for the funding details, stay for the Nate Silver jump-scare.</p>
+                <p>Reporting byline</p>
+                <p class="date">2024-01-25</p>
+                <p class="small">Ingredients: interviewing, reporting, editing</p>
+            </article>
+
+            <article>
+                <h3>Author Q&A: Cory Doctorow, "The Internet Con"</h3>
+                <a href="https://spectrum.ieee.org/doctorow-interoperability">
+                    <img src="https://spectrum.ieee.org/media-library/black-and-white-portrait-of-a-smiling-bespectacled-man.jpg?id=36341066&width=275" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>IEEE Spectrum</p>
+                <p>Extended interview with Cory Doctorow, author of "The Internet Con," covering the current state of web platform lock-in, how we got here, and how we can start moving back to a more open internet.</p>
+                <p>Reporting byline</p>
+                <p class="date">2023-09-05</p>
+                <p class="small">Ingredients: interviewing, reporting, editing</p>
+            </article>
+
+            <article>
+                <h3>Llama and ChatGPT Are Not Open-Source</h3>
+                <a href="https://spectrum.ieee.org/open-source-llm-not-open">
+                    <img src="https://spectrum.ieee.org/media-library/llama-in-a-cage-with-a-computer-background.jpg?id=34681852&width=275" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>IEEE Spectrum</p>
+                <p>Covering the release of purportedly open-source LLMs from Meta, OpenAI and other organizations and coincident analyses from AI researchers testing the openness of "open-source" generative AI: model parameter access, training and inference code access, information about training and testing datasets, etc.</p>
+                <p>Reporting byline</p>
+                <p class="date">2023-07-27</p>
+                <p class="small">Ingredients: interviewing, reporting, editing</p>
+            </article>
+
+            <article>
+                <h3>Neuralink's FDA Troubles Are Just the Beginning</h3>
+                <a href="https://spectrum.ieee.org/neuralink-seeks-fda-approval">
+                    <img src="https://spectrum.ieee.org/media-library/an-abstract-portrait-of-a-man-with-white-and-green-lines-and-dots-a-smartphone-in-the-front-with-screen-that-reads-breakthroug.jpg?id=33388909&width=275&height=206" height="206px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>IEEE Spectrum</p>
+                <p>News coverage and analysis concerning Neuralink's difficulties with the FDA approval process</p>
+                <p>Reporting byline</p>
+                <p class="date">2023-04-02</p>
+                <p class="small">Ingredients: interviewing, reporting, editing</p>
+            </article>
+
+            <!-- TEMPLATE
+            <article>
+                <h3>Title</h3>
+                <a href="">
+                    <img src="" height="275px" width="275px" class="lg-thumbnail" style="margin-bottom: 10px;"/>
+                </a>
+                <p>Description</p>
+                <p>Byline</p>
+                <p>Publication Date</p>
+                <p class="small">Ingredients: TKTK</p>
+            </article>
+            -->
+
+        </section>
+    </body>
+</html>
